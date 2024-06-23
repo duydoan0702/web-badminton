@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <a href=""><img src="/Images/logo/logo2.png" alt="" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">TRANG CHỦ</a></li>
+                <li><a href="shop.html">SẢN PHẨM</a></li>
+                <li><a href="blog.html">TIN TỨC</a></li>
+                <li><a href="about.html">GIỚI THIỆU</a></li>
+                <li><a href="contact.html">LIÊN HỆ</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Xóa</td>
+                    <td>Sản Phẩm</td>
+                    <td>Tên Sản Phẩm</td>
+                    <td>Giá</td>
+                    <td>Số Lượng</td>
+                    <td>Tổng Tiền</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="/Images/Products/giay-cau-long-kamito-vtt-gowo-kmgc230627-xanh-hong-chinh-hang_1705109311.webp" alt=""></td>
+                    <td>Giày cầu lông kamito</td>
+                    <td>$500.000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$500.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="/Images/Products/giay-cau-long-kamito-vtt-gowo-kmgc230627-xanh-hong-chinh-hang_1705109311.webp" alt=""></td>
+                    <td>Giày cầu lông kamito</td>
+                    <td>$500.000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$500.000</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="/Images/Products/giay-cau-long-kamito-vtt-gowo-kmgc230627-xanh-hong-chinh-hang_1705109311.webp" alt=""></td>
+                    <td>Giày cầu lông kamito</td>
+                    <td>$500.000</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$500.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Áp dụng mã giảm giá</h3>
+            <div>
+                <input type="text" placeholder="Nhập mã giảm giá">
+                <button class="normal"> Xác nhận </button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Tổng tiền sản phẩm</h3>
+            <table>
+                <tr>
+                    <td>Tổng tiền sản phẩm</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Phí vận chuyển</td>
+                    <td>miễn phí</td>
+                </tr>
+                <tr>
+                    <td><strong>Tổng</strong></td>
+                    <td><strong>$535</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Thanh Toán</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="footer-col">
+            <h4>THÔNG TIN LIÊN HỆ</h4>
+            <p><strong>Địa chỉ : </strong>trường công nghệ thông tin và truyền thông việt hàn</p>
+            <p><strong>sdt : </strong>+09239990562</p>
+            <p><strong>Thời gian :</strong> 7:00-18:00 thứ 2-thứ 6</p> 
+            <div class="follow">
+                <h4>THEO DÕI</h4>
+                <div class="icon-all">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter icon"></i>
+                    <i class="fa-brands fa-instagram icon"></i>
+                    <i class="fa-brands fa-youtube icon"></i>
+                </div>
+            </div>     
+        </div>
+
+        <div class="footer-col">
+            <h4>DỊCH VỤ</h4>
+            <a href="#">Thông tin giao hàng</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="#">Điều khoản và điều kiện</a>
+            <a href="/doan1/contact.html">Liên hệ</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>TÀI KHOẢN</h4>
+            <a href="#">Đăng Kí</a>
+            <a href="/doan1/cart.html">Xem Giỏ Hàng</a>
+            <a href="#">Sản Phẩm Yêu Thích</a>
+            <a href="#">Theo Dõi Đơn Hàng</a>
+        </div>
+    
+        <div class="footer-col">
+            <h4>TẢI XUỐNG</h4>
+            <p>Từ App Store hoặc Google Play</p>
+            <div class="pay">
+                <img src="/Images/pay/app.jpg" alt="">
+                <img src="/Images/pay/play.jpg" alt="">
+            </div>
+            <p>Thanh toán qua</p>
+            <img src="/Images/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
